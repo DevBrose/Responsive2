@@ -1,0 +1,25 @@
+.body {
+
+
+background-color: white;
+color: black;
+
+    
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: 410px;
+    display: table;
+    clear: both;
+  }
+
+
+  
