@@ -1,0 +1,31 @@
+.grid {
+ height: 100px;
+ width: 100px;
+ background-color: black;
+ display: grid;
+ justify-items: center;
+ align-items: center;
+    
+}
+
+
+.grid-container {
+    background-color: black;
+}
+
+.grid-item {
+
+    background-color: black;
+}
+
+
+.div-class-logo-head {
+
+
+    color:white;
+    width:90px;
+    height: 36px;
+}
+
+
+
