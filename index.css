@@ -1,31 +1,69 @@
-.grid {
- height: 100px;
- width: 100px;
- background-color: black;
- display: grid;
- justify-items: center;
- align-items: center;
-    
-}
-
-
-.grid-container {
+body {
+    min-height: 100px;
+    max-width: 100px;
     background-color: black;
 }
 
-.grid-item {
+nav {
+    display: flex;
+}
 
+.logo {
+    color: white;
+}
+
+li {
+    display: flex;
+}
+
+ul {
+    display: flex;
     background-color: black;
 }
 
+.i-class {
+    color: white;
+    align-items: stretch;
+}
 
-.div-class-logo-head {
+h2 {
+    color: white;
+    align-items: center;
+}
 
-
-    color:white;
-    width:90px;
-    height: 36px;
+p {
+    color: white;
 }
 
 
+/* Extra small devices (phones, 600px and down) */
 
+@media only screen and (max-width: 600px) "360"
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    650
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    800
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    1000
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    1900
+}
+
+;
